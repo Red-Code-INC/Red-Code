@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+        <title>Red Code</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--<link href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Code-Family-Logos@1.0.7/logos.css" rel="stylesheet">-->
+        <link href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Icons@1.4.1/icons.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./logo/Red-Code-INC-Logo2.png">
+        <!--<link rel="shortcut icon" href="./CSSBACKGROUND.png">-->
+        <link href="style.css" rel="stylesheet">
+        <link href="styles/features.css" rel="stylesheet">
+        <script>
+                if (window.location.href.includes("/index.html")){
+                    window.location.href = window.location.href.replaceAll("/index.html","")
+                }
+        </script>
+        <style>
+            icon{
+                font-family:Red-Icons;
+            }
+            .ri-code-library{
+                /*content:url("https://codehs.com/uploads/6e8caedb9aac7c9d88bb37532c0a316e");*/
+                /*color:red;*/
+    content:url("https://codehs.com/uploads/611658e57cb9ed9271d16784a805bef6");
+}
+        </style>
+    </head>
+    <body onload="CHECK()">
+        <!--Code goes here-->
+        <div class="tab">
+            <a id="Scriptlink" href=""><i class="rc-redscript" logo></i></a>
+            <a id="CSSlink" href=""><i class="rc-redcss" logo></i><a>
+            <a id="HTMLlink" href=""><i class="rc-redhtml" logo></i></a>
+            <a id="Iconslink"><i logo class="rc-redicons"></i></a>
+            <a id="Xlink"><i logo class="rc-redx"></i></a>
+            <a id="Pythonlink"><i logo class="rc-redpython"></i></a>
+            <a href="https://rava-9439257.codehs.me"><i logo class="rc-redjava"></i></a>
+            <a href="https://red-c-9355228.codehs.me/c"><i logo class="rc-redc"></i></a>
+            <a href="https://red-c-9355228.codehs.me/plus"><i logo class="rc-redplus"></i></a>
+            <!--<dropdown style="display:none">-->
+            <a href="https://red-c-9355228.codehs.me/sharp"><i logo class="rc-redsharp"></i></a>
+            <!--</dropdown>-->
+        </div>
+        <div class="logowords" id="redscriptword">Red Script</div>
+        <div class="logowords" id="redcssword">Red CSS</div>
+        <div class="logowords" id="redhtmlword">Red HTML</div>
+        <br>
+        <div class="tab2" id="tabs">
+            <button class="tablinks" onclick="tab(event , 'home' , 'tabcontent', 'tablinks')" name="defaultOpen">Home</button>
+            <button class="tablinks" onclick="tab(event , 'tab2' , 'tabcontent', 'tablinks')">About</button>
+            <button class="tablinks" onclick="tab(event , 'tab3' , 'tabcontent', 'tablinks')">Libraries</button>
+            <button class="tablinks" onclick="tab(event , 'tab4' , 'tabcontent', 'tablinks')">Settings</button>
+        </div>
+        <div id="innersite">
+            <div id="home" class="tabcontent">
+            <h1 id="title"><i class="rc-redcode titlelogo"></i><red>Red</red> Code</h1>
+            <p id="slogan">The <red style="font-weight:bold;font-style:italic">Reddest</red> Code Family Around</p>
+            <p id="linksbar"><icon>github</icon>&nbsp<a bold href="https://github.com/Red-Code-INC">GitHub</a>&nbsp|&nbsp<icon>youtube</icon>&nbsp<a bold href="">YouTube</a>&nbsp|<s1></s1><icon>discord</icon><s1></s1><a bold href="https://discord.gg/d66PTZWWNx">Discord</a><s1></s1>|<s1></s1><icon>twitter</icon><s1></s1><a href="https://twitter.com/redcodeinc" bold>Twitter</a><s1></s1>|<s1></s1><icon>instagram</icon> <a href="https://instagram.com/redcodeinc" bold>Instagram</a><s1></s1>|<s1></s1><icon>reddit</icon> <a href="https://reddit.com/r/redcodeinc" bold>Reddit</a></p>
+            <p style="font-size:21px" id="linksbar2"><a href="https://github.com/Red-Code-INC" linkbar><icon>github</icon></a><s1></s1>|<s1></s1><a href="https://youtube.com/user/redcodeinc" linkbar><icon>youtube</icon></a><s1></s1>|<s1></s1><a linkbar href="https://discord.gg/d66PTZWWNx"><icon>discord</icon></a><s1></s1>|<s1></s1><a linkbar href="https://twitter.com/redcodeinc"><icon>twitter</icon></a><s1></s1>|<s1></s1><a href="https://instagram.com/redcodeinc" linkbar><icon>instagram</icon></a><s1></s1>|<s1></s1><a href="https://reddit.com/r/redcodeinc" linkbar><icon>reddit</icon></a></p>
+            <div class="signup">
+                <h2 style="color:red">Interested In Joining Us?</h2>
+                <p>Click <a href="https://forms.gle/KJvcNvxKpYnp7tkw9">Here</a> to apply</p>
+            </div>
+        </div>
+        <div id="tab2" class="tabcontent">
+            <h1>About <icon style="font-size:80%;color:white;background-color:red;border-radius:100%;background-clip:content-box">info</icon></h1>
+            <p>Red Code is a group of Code Libraries (with a taste of <red bold>red</red>)--for more information about each library checkout the individual sites (links located up top at the sites bar)--including <a href="https://red-script-8519305.codehs.me/RedScript.html">Red Script</a>, <a href="https://red-css-8679621.codehs.me/index.html">Red CSS</a>, and <a href="https://red-html-8684688.codehs.me/index.html">Red HTML</a>. </p>
+        </div>
+        <div id="tab3" class="tabcontent">
+            <h1 class="libraries"><i class="ri-code-library"></i> Libraries</h1>
+            <!--<ul id="librarylists" style="list-style:none;">-->
+                <!--<li><h2><i class="rc-redy" listlogo></i>Red Y</h2></li>-->
+                <!--<li><h2><i class="rc-redz" listlogo></i>Red Z</h2></li>-->
+            <!--</ul>-->
+            <table class="library">
+                <td>
+                    <h2><i class="rc-redscript" listlogo></i>Red Script</h2>
+                    <h2><i class="rc-redcss" listlogo></i>Red CSS</h2>
+                    <h2><i class="rc-redhtml" listlogo></i>Red HTML</h2>
+                    <h2><i class="rc-redicons" listlogo></i>Red Icons</h2>
+                    <h2><i class="rc-redx" listlogo></i>Red X</h2>
+                    <h2><i class="rc-redpython" listlogo></i>Red Python</h2>
+                </td>
+                <td>
+                    <h2><i class="rc-redjava" listlogo></i>Red Java</h2>
+                    <h2><i class="rc-redc" listlogo></i>Red C</h2>
+                    <h2><i class="rc-redplus" listlogo></i>Red Plus</h2>
+                    <h2><i class="rc-redsharp" listlogo></i>Red Sharp</h2>
+                    <h2>&nbsp</h2>
+                    <h2>&nbsp</h2>
+                </td>
+            </table>
+        </div>
+        <div id="tab4" class="tabcontent">
+            <h1>Settings <red><icon settings>settings</icon></red></h1>
+        </div>
+        </div>
+        <script>
+            async function populate() {
+  const requestURL =
+    "https://red-code-inc.github.io/Red-Vault/links.json";
+  const request = new Request(requestURL);
+
+  const response = await fetch(request);
+  const Red = await response.json();
+//   let Red_Icons = "1.3.6"
+  document.getElementById("Scriptlink").setAttribute("href",Red.Script)
+  document.getElementById("CSSlink").setAttribute("href",Red.CSS)
+  document.getElementById("HTMLlink").setAttribute("href",Red.HTML)
+  document.getElementById("Iconslink").setAttribute("href",Red.Icons)
+}
+populate()
+        </script>
+        <script src="script.js"></script>
+        <script src="space.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Script@1.4.0/script.js" type="module"></script>
+    </body>
+</html>

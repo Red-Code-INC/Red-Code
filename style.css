@@ -1,0 +1,269 @@
+@import url("./test.css");
+
+
+@media screen and (max-width:600px){
+    body{
+        font-size:90%;
+    }
+    [logo]{
+        width:32px;
+    }
+    [rx]{
+        width:17px;
+    }
+    [rx2]{
+        width:16px;
+    }
+    [listlogo]{
+        width:20px;
+    }
+    [xx]{
+        width:15px;
+    }
+    a{
+        color:red;
+    }
+    #linksbar{
+    display:none;
+}
+#linkbar2{
+    display:initial;
+    font-size:30px;
+}
+.ri-code-library{
+    width:30px;
+}
+[settings]{
+    font-size:30px;
+    vertical-align:text-bottom;
+}
+.hide{
+    display:none
+}
+.logowords{
+    display: none;
+    color:white;
+  position: absolute;
+  background-color:red;
+  min-width: 75px;
+  overflow-y: scroll;
+  height:15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.tab{
+    width:content;
+    background-color:#c00000;
+    padding-top:4px;
+}
+.tab button{
+    border:none;
+    outline:none;
+    float:left;
+    color:white;
+}
+.rc-redcode-logo{
+    content:url("./logo/Red-Code-INC-Logo.png");
+}
+.titlelogo{
+    vertical-align:text-bottom;
+    width:40px;
+}
+red{
+    color:red;
+}
+#title{
+    font-size:25px;
+}
+}
+@media screen and (min-width:601px){
+    body{
+        font-size:90%;
+    }
+        [logo]{
+            width:39px;
+        }
+        [rx]{
+            width:28px;
+        }
+        [rx2]{
+            width:27px;
+        }
+        [listlogo]{
+            width:20px;
+        }
+        [xx]{
+            width:15px;
+        }
+    a{
+    color:red;
+}
+#linksbar{
+    display:none;
+}
+#linkbar2{
+    display:initial;
+    font-size:30px;
+}
+.ri-code-library{
+    width:30px;
+}
+[settings]{
+    font-size:30px;
+    vertical-align:text-bottom;
+}
+.hide{
+    display:none
+}
+.logowords{
+    display: none;
+    color:white;
+  position: absolute;
+  background-color:red;
+  min-width: 75px;
+  overflow-y: scroll;
+  height:15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.tab{
+    width:content;
+    background-color:#c00000;
+    padding-top:4px;
+}
+.tab button{
+    border:none;
+    outline:none;
+    float:left;
+    color:white;
+}
+.rc-redcode-logo{
+    content:url("./logo/Red-Code-INC-Logo.png");
+}
+.titlelogo{
+    vertical-align:text-bottom;
+    width:40px;
+}
+red{
+    color:red;
+}
+#title{
+    font-size:25px;
+}
+}
+@media screen and (min-width:801px){
+    [logo]{
+        width:60px;
+    }
+    [rx]{
+        width:44px;
+    }
+    [rx2]{
+        width:43px;
+    }
+    [listlogo]{
+        width:29px;
+    }
+    [xx]{
+        width:20px;
+    }
+.ri-code-library{
+    width:30px;
+}
+#slogan{
+    font-size:125%;
+}
+a{
+    color:red;
+}
+.hide{
+    display:none
+}
+#linksbar{
+    display:initial;
+    margin-left:25px;
+}
+.logowords{
+    display: none;
+    color:white;
+  position: absolute;
+  background-color:red;
+  min-width: 75px;
+  overflow-y: scroll;
+  height:20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.tab{
+    width:content;
+    background-color:#c00000;
+    padding-top:4px;
+}
+.tab button{
+    border:none;
+    outline:none;
+    float:left;
+    color:white;
+}
+.rc-redcode-logo{
+    content:url("./logo/Red-Code-INC-Logo.png");
+}
+.titlelogo{
+    vertical-align:text-bottom;
+    width:60px;
+}
+red{
+    color:red;
+}
+#title{
+    font-size:40px;
+}
+[settings]{
+    vertical-align:text-bottom;
+    font-size:30px;
+    padding-bottom:3px;
+}
+#linksbar2{
+    display:none;
+}
+}
+[bold]{
+    font-weight:bold;
+}
+[linkbar]{
+    text-decoration:none;color:black
+}
+[xx]{
+    padding-left:2px;
+    padding-right:4px;
+}
+[rython]{
+    content:url("./logo/Red-Python-Logo.png");
+}
+[redjava]{
+    content:url("./logo/Red-Java-Logo.png");
+}
+[redc]{
+    content:url("./logo/Red-C-Logo.png");
+}
+[redplus]{
+    content:url("./logo/Red-Plus-Logo.png");
+}
+[redsharp]{
+    content:url("./logo/Red-Sharp-Logo.png");
+}
+.libraries{
+    margin-bottom:0;
+}
+.library{
+    margin-top:0;
+}
+.library td{
+    padding:0px 10px;
+}
+#librarylists{
+    /*columns:2;*/
+    /*list-style-position:inside;*/
+    /*margin-top:1px;*/
+    /*width:200px;*/
+}
