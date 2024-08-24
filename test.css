@@ -39,13 +39,18 @@
 }
 @media screen and (min-width:1400px){
     .signup{
-    position:absolute;
-    bottom:5px;
-    left:1%;
-    background-color:lightgray;
-    width:98%;
-    text-align:center;
-}
+        position:fixed;
+        display:block;
+        top:85%;
+        left:1%;
+        height:100px;
+        background-color:lightgray;
+        width:98%;
+        text-align:center;
+    }
+    .signup h2, .signup p, .signup{
+        margin-bottom:0;
+    }
 }
 h2.signup{
     color:red;
