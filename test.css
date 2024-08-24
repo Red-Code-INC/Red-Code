@@ -40,7 +40,7 @@
 @media screen and (min-width:1400px){
     .signup{
     position:absolute;
-    top:88%;
+    bottom:5px;
     left:1%;
     background-color:lightgray;
     width:98%;
