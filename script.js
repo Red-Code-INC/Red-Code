@@ -5,13 +5,31 @@ async function populate() {
   const response = await fetch(request);
   const Red = await response.json();
 //   let Red_Icons = "1.3.6"
-  document.getElementById("Scriptlink").setAttribute("href",Red.Script)
-  document.getElementById("CSSlink").setAttribute("href",Red.CSS)
-  document.getElementById("HTMLlink").setAttribute("href",Red.HTML)
-  document.getElementById("Iconslink").setAttribute("href",Red.Icons)
-  document.getElementById("Xlink").setAttribute("href",Red.X)
-  document.getElementById("Pythonlink").setAttribute("href",Red.Python)
-}
+    let LINKS = document.querySelectorAll("[data-link]")
+    LINKS.forEach((link) =>{
+        if (link.getAttribute("data-link") == "red-code"){
+            link.setAttribute("href",Red.Code)
+        } else if (link.getAttribute("data-link") == "red-script"){
+            link.setAttribute("href",Red.Script)
+        } else if (link.getAttribute("data-link") == "red-css"){
+            link.setAttribute("href",Red.CSS)
+        } else if (link.getAttribute("data-link") == "red-html"){
+            link.setAttribute("href",Red.HTML)
+        } else if (link.getAttribute("data-link") == "red-icons"){
+            link.setAttribute("href",Red.Icons)
+        } else if (link.getAttribute("data-link") == "red-python"){
+            link.setAttribute("href",Red.Python)
+        } else if (link.getAttribute("data-link") == "red-java"){
+            link.setAttribute("href",Red.Java)
+        } else if (link.getAttribute("data-link") == "red-c"){
+            link.setAttribute("href",Red.C)
+        } else if (link.getAttribute("data-link") == "red-plus"){
+            link.setAttribute("href",Red.Plus)
+        } else if (link.getAttribute("data-link") == "red-sharp"){
+            link.setAttribute("href",Red.Sharp)
+        }
+    })
+  }
 populate()
 // let body = document.getElementsByTagName("body")[0]
 // let tabbar = document.getElementById("tabs")
