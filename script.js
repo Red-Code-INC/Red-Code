@@ -5,6 +5,9 @@ async function populate() {
   const response = await fetch(request);
   const Red = await response.json();
 //   let Red_Icons = "1.3.6"
+  console.log(Red)
+  console.log(JSON.stringify(Red))
+  
     let LINKS = document.querySelectorAll("[data-link]")
     LINKS.forEach(link =>{
         if (link.getAttribute("data-link") == "red-code"){
