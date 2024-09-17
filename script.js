@@ -17,6 +17,8 @@ async function populate() {
             link.setAttribute("href",Red.HTML)
         } else if (link.getAttribute("data-link") == "red-icons"){
             link.setAttribute("href",Red.Icons)
+        } else if (link.getAttribute("data-link") == "red-x"){
+            link.setAttribute("href",Red.X)
         } else if (link.getAttribute("data-link") == "red-python"){
             link.setAttribute("href",Red.Python)
         } else if (link.getAttribute("data-link") == "red-java"){
