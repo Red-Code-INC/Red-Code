@@ -6,6 +6,8 @@ async function populate() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const Red = await response.json();
+    alert(Red)
+    alert(JSON.stringify(Red)
     console.log(Red);  // Ensure you're receiving the correct data
     console.log(JSON.stringify(Red));  // View the structure
 
