@@ -1,3 +1,16 @@
+const Red = {
+  Code:"https://redcodeinc.netlify.app",
+  Script:"https://redscript.netlify.app",
+  CSS:"https://redcss.netlify.app",
+  HTML:"https://redhtml.netlify.app",
+  Icons:"https://redicons.netlify.app",
+  X:"https://redx.netlify.app",
+  Python:"https://rython.netlify.app",
+  Java:"https://rava.netlify.app",
+  C:"https://redc.netlify.app/c",
+  Plus:"https://redc.netlify.app/plus",
+  Sharp:"https://redc.netlify.app/sharp"
+}
 async function populate() {
   const requestURL = "https://red-code-inc.github.io/Red-Vault/links.json";
   try {
@@ -5,7 +18,7 @@ async function populate() {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    const Red = await response.json();
+    // const Red = await response.json();
     alert(Red)
     alert(JSON.stringify(Red)
     console.log(Red);  // Ensure you're receiving the correct data
