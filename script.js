@@ -33,7 +33,6 @@ async function populate() {
     })
   }
 populate()
-populate2();
 // populate();
 
 // let body = document.getElementsByTagName("body")[0]
