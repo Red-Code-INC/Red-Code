@@ -1,7 +1,7 @@
 @import url("./test.css");
 @import url("./size.css");
 
-/* :root {
+:root {
     --logo-width: 32px;
     --rx-width: 17px;
     --rx2-width: 16px;
@@ -15,7 +15,7 @@
     --linksbar2-display: initial;
     --slogan-font-size: initial;
     --settings-padding-bottom: 0;
-} */
+}
 
 body {
     font-size:var(--body-size);
