@@ -1,0 +1,112 @@
+@media screen and (max-width:800px){
+.tab2 {
+  float: left;
+  width: 100px;
+  /*height:75vh ;*/
+  /*background-color:red;*/
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+  display: block;
+  background-color: red;
+  color: black;
+  height:30px;
+  width: 75px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size:10px;
+  color:white;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+  background-color: #e60000;
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+  background-color: #c00000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display:none;
+  /*float: left;*/
+  margin-left:100px;
+  padding: 0px 0px;
+  width: 75%;
+  border-left: none;
+  height: 300px;
+}
+Example
+.tabcontent2 {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+}
+@media screen and (min-width:801px){
+.tab2 {
+  float: left;
+  width: 130px;
+  height: 100%;
+  background-color:inherit;
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+  display: block;
+  background-color: red;
+  color: black;
+  height:30px;
+  width: 110px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size:15px;
+  color:white;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+  background-color: #e60000;
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+  background-color: #c00000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display:none;
+  /*float: left;*/
+  padding: 0px 105px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+Example
+.tabcontent2 {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+}
+[bold]{
+    font-weight:bold;
+}
