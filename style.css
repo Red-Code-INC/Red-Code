@@ -1,4 +1,18 @@
-
+:root {
+    --logo-width: 32px;
+    --rx-width: 17px;
+    --rx2-width: 16px;
+    --listlogo-width: 20px;
+    --xx-width: 15px;
+    --titlelogo-width: 40px;
+    --title-font-size: 25px;
+    --slogan-font-size: initial;
+    --logowords-height: 15px;
+    --linksbar-display: none;
+    --linksbar-margin-left: 0;
+    --linksbar2-display: initial;
+    --settings-padding-bottom: 0;
+}
 /* For max-width 600px */
 @media screen and (max-width: 600px) {
     :root {
