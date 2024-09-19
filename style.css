@@ -32,7 +32,7 @@ a {
     margin-left: var(--linksbar-margin-left);
 }
 
-#linkbar2 {
+#linksbar2 {
     display: var(--linksbar2-display);
     font-size: 30px;
 }
