@@ -10,6 +10,7 @@
         --title-font-size: 25px;
         --logowords-height: 15px;
         --linksbar2-display: initial;
+        --body-size:90%;
     }
 }
 
@@ -25,6 +26,7 @@
         --title-font-size: 25px;
         --logowords-height: 15px;
         --linksbar2-display: initial;
+        --body-size:90%;
     }
 }
 
@@ -44,5 +46,6 @@
         --linksbar2-display: none;
         --slogan-font-size: 125%;
         --settings-padding-bottom: 3px;
+        --body-size:100%;
     }
 }
