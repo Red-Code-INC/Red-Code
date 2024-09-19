@@ -1,7 +1,7 @@
 @import url("./test.css");
-/* @import url("./size.css"); */
+@import url("./size.css");
 
-/* :root {
+:root {
     --logo-width: 32px;
     --rx-width: 17px;
     --rx2-width: 16px;
@@ -15,62 +15,14 @@
     --linksbar2-display: initial;
     --slogan-font-size: initial;
     --settings-padding-bottom: 0;
-} */
-/* For max-width 600px */
-@media screen and (max-width: 600px) {
-    :root {
-        --logo-width: 32px;
-        --rx-width: 17px;
-        --rx2-width: 16px;
-        --listlogo-width: 20px;
-        --xx-width: 15px;
-        --titlelogo-width: 40px;
-        --title-font-size: 25px;
-        --logowords-height: 15px;
-        --linksbar2-display: initial;
-        --body-size:90%;
-    }
 }
 
-/* For min-width 601px */
-/* @media screen and (min-width: 601px) {
-    :root {
-        --logo-width: 39px;
-        --rx-width: 28px;
-        --rx2-width: 27px;
-        --listlogo-width: 20px;
-        --xx-width: 15px;
-        --titlelogo-width: 40px;
-        --title-font-size: 25px;
-        --logowords-height: 15px;
-        --linksbar2-display: initial;
-        --body-size:90%;
-    }
-} */
-
-/* For min-width 801px */
-@media screen and (min-width: 801px) {
-    :root {
-        --logo-width: 60px;
-        --rx-width: 44px;
-        --rx2-width: 43px;
-        --listlogo-width: 29px;
-        --xx-width: 20px;
-        --titlelogo-width: 60px;
-        --title-font-size: 40px;
-        --logowords-height: 20px;
-        --linksbar-display: initial;
-        --linksbar-margin-left: 25px;
-        --linksbar2-display: none;
-        --slogan-font-size: 125%;
-        --settings-padding-bottom: 3px;
-        --body-size:100%;
-    }
-}
 body {
     font-size:var(--body-size);
 }
-
+[logo]{
+    width:var(--logo-width);
+}
 a {
     color: red;
 }
